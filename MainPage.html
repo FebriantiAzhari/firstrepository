@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="MainPage.css">
+    <title>Portofolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<html>
+<body>
+    <div class="navbar">
+        <h1>REVOU</h1>
+        <img src="https://images.glints.com/unsafe/glints-dashboard.s3.amazonaws.com/company-logo/a32f81155cd0d4f16d36aef74f7d2644.png" alt="logo revou" width="35" height="35">
+        <h1>LOGOUT</h1>
+    </div>
+    <div class="main">
+        <form class="form" action="../index.html">
+        <div class="form-input">
+            <label for="nama">Nama</label>
+            <input type="text" name="nama" id="nama" placeholder="Ketikan nama anda">
+            <label for="jurusan">Jurusan</label>
+            <input type="text" name="jurusan" id="jurusan" placeholder="Ketikan jurusan anda">
+            <label for="umur">Umur</label>
+            <input type="number" name="umur" id="umur" min="18" placeholder="Ketikan umur anda"
+            required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Ketikan email anda">
+            <label for="pekerjaan">Pekerjaan</label>
+            <select id="pekerjaan" name="pekerjaan">
+                <option>Mahasiswa</option>
+                <option>Freelance</option>
+                <option>Wiraswasta</option>
+            </select>
+        </div>
+
+    <div class="radio">
+            <input type="radio"  id="gender-male"
+            name="gender" value="male">
+            <label for="gender-male">Male</label>
+    
+            <input type="radio"  id="gender-female"
+            name="gender" value="female">
+            <label for="gender-female">Female</label>
+        </div>
+
+        <div class="button-form">
+        <button aria-label="Tombol untuk 
+        melakukan tindakan submit form"
+         type="submit">SUBMIT</button>
+        </div>
+        </form>
+    </div>
+</body>
+
+
+</html>
